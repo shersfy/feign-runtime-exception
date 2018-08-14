@@ -1,0 +1,25 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: server-consumer
+# eureka server
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+# feign
+feign: 
+  hystrix:
+    enabled: true
+# logging
+logging:
+  file: logs/${spring.application.name}.log
+  file.max-size: 100MB
+  level:
+    root: info
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss.SSS
+    level: '%5p'
