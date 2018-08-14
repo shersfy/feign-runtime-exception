@@ -4,7 +4,7 @@
 2. start server-provider
 3. start server-consumer
 
-consumer ERROR
+consumer error
 ```
 2018-08-14 17:56:06.740  INFO 13512 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@31f9b85e: startup date [Tue Aug 14 17:56:06 CST 2018]; root of context hierarchy
 2018-08-14 17:56:06.919  INFO 13512 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
